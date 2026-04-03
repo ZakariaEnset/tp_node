@@ -1,0 +1,14 @@
+### Accueil
+GET http://localhost:3000/
+
+### Liste des notes
+GET http://localhost:3000/notes
+
+### Ajouter une note
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{"texte": "Ma nouvelle note"}
+
+### Heure du serveur
+GET http://localhost:3000/heure
